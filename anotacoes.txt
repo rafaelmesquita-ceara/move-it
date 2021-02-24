@@ -1,2 +1,4 @@
 Aula 01:
 Criar projeto -> yarn create react-app moveit --template=typescript
+imports de css sempre pelo javascript 
+  import './styles/global.css';
