@@ -2,3 +2,19 @@ Aula 01:
 Criar projeto -> yarn create react-app moveit --template=typescript
 imports de css sempre pelo javascript 
   import './styles/global.css';
+Utilizar rem ao invés de px para tamanho por questoes de responsividade
+
+Aula 02: Next.js
+SPA (Single Page Application)
+Soluciona problemas de SEO
+SSR (Renderizar a página pelo lado do servidor)
+SSG (Gravar a página em memória para ser acessada a mesma página)
+
+Maneiras de criar uma aplicação react:
+  create-react-app (SPA)
+  Gatsby (SSG)
+  Next.js (SSG, SSR, SPA)
+
+
+Criar projeto Next.js -> yarn create next-app moveit-next
+Adicionando TS -> yarn add typescript @types/react @types/react-dom @types/node -D
