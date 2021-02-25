@@ -4,6 +4,8 @@ imports de css sempre pelo javascript
   import './styles/global.css';
 Utilizar rem ao invés de px para tamanho por questoes de responsividade
 
+1rem = 16px no Desktop
+
 Aula 02: Next.js
 SPA (Single Page Application)
 Soluciona problemas de SEO
@@ -17,4 +19,11 @@ Maneiras de criar uma aplicação react:
 
 
 Criar projeto Next.js -> yarn create next-app moveit-next
+
 Adicionando TS -> yarn add typescript @types/react @types/react-dom @types/node -D
+
+_document.tsx -> É carregado uma única vez, muito util para carregar fontes para toda a aplicação
+
+Isolando CSS:
+  <Component>.module.css -> CSS carregado apenas para um componente específico
+  className={styles.<NomeDaClasseNoCSS>} -> Para identificar o className no componente
